@@ -38,19 +38,21 @@
   width: 100%;
   align-self: center;
   margin-top: 60px;
+  border-radius: 25px;
 }
 @media screen and (min-width: 768px) {
   .login-form-container {
     height: 440px;
     width: 456px;
     padding: 48px;
-    border-radius: 8px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Roboto';
     background: #0c0b10;
     opacity: 0.8;
+    outline: 2px solid #fff;
   }
 }
 .login-title {
@@ -60,6 +62,7 @@
   top: 356px;
   color: #ffffff;
   font-weight: 500;
+  text-decoration: underline;
 }
 .label {
   font-size: 13px;
@@ -86,6 +89,7 @@
   border: none;
   outline: none;
   color: #e2e8f0;
+  outline: 1px solid rgb(212, 211, 211);
 }
 @media screen and (min-width: 768px) {
   .input-field {
